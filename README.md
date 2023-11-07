@@ -3,7 +3,7 @@
 ## Description
 This repository contains projects to understand the fundamentals of Machine Learning. 
 
-'module_structure' is a Python module which contains different tensor operations and functions.
+'exercises' is a Python module which contains different tensor operations and functions.
 
 ## Table of Contents
 
@@ -16,7 +16,7 @@ This repository contains projects to understand the fundamentals of Machine Lear
 
 To use the content of this repository, ensure that you have a version of Python installed. 
 
-To install the repository module_structure copy the following link:
+To install the repository ML copy the following link:
 
             pip install -U git+https://github.com/JuanFdezc/ML.git
 
@@ -33,16 +33,19 @@ These are the functions that are contained in the class. You can see an explanti
 
 + **Zero function:** given the dimensions x and y returns a tensor with all zeros of the dimension specified.
 
-  - instance.zero(dimx,dimy)
+  - instance.zeros(dimx,dimy)
++ **Ones function:** given the dimensions x and y returns a tensor with all ones of the dimension specified.
+
+  - instance.ones(dimx,dimy)
 + **Random function:** given the dimensions x and y returns a tensor with random values of the dimension specified.
 
-  - instance.rand(dimx,dimy)
+  - instance.random(dimx,dimy)
 + **Add function:** given two tensors returns a tensor with the addition of both.
   
   - instance.add(tensor1,tensor2)
 + **Multiply function:** given two tensors returns a tensor with the multiplication of both.
 
-  - instance.matmult(tensor1,tensor2)
+  - instance.multiply(tensor1,tensor2)
 + **Extra function function 1:** given a tensor, calculates the average of the first column and add it two each value of the tensor given
 
   - instance.extrafunction_1(tensor)
