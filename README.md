@@ -23,7 +23,7 @@ To install the repository module_structure copy the following link:
 ## Usage
 1. Install the repository by copying the url in the section Installation above.
 2. Create a new python file
-3. Use the tensor_operators as library writing:   from module_structure.Tensor_Ex import *
+3. Use the tensor_operators as library writing:   from exercises.tensor_ex import *
 4. Create a new object of the class and you will be able to use one of the functions in the section below.
 
    - Example: instance = TensorCalculator()
