@@ -1,4 +1,4 @@
-from module_structure.Tensor_Ex import TensorCalculator
+from module_structure.Tensor_Ex import *
 
 
 
