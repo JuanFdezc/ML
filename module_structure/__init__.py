@@ -1,6 +1,6 @@
-from module_structure.Tensor_Ex import *
+from module_structure.tensor_ex import *
 
-__all__ = Tensor_Ex.__all__
+__all__ = tensor_ex.__all__
 
 MAJOR = 1
 MINOR = 0
