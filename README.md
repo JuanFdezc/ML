@@ -18,12 +18,12 @@ To use the content of this repository, ensure that you have a version of Python 
 
 To install the repository module_structure copy the following link:
 
-            pip install -U git+https://github.com/JuanFdezc/module_structure.git
+            pip install -U git+https://github.com/JuanFdezc/ML.git
 
 ## Usage
 1. Install the repository by copying the url in the section Installation above.
 2. Create a new python file
-3. Use the tensor_operators as library writing:   from module_structure.tensor_operators import TensorCalculator
+3. Use the tensor_operators as library writing:   from module_structure.Tensor_Ex import *
 4. Create a new object of the class and you will be able to use one of the functions in the section below.
 
    - Example: instance = TensorCalculator()
@@ -43,7 +43,7 @@ These are the functions that are contained in the class. You can see an explanti
 + **Multiply function:** given two tensors returns a tensor with the multiplication of both.
 
   - instance.matmult(tensor1,tensor2)
-+ **Extra function function 1:** given a tensor, calculates the average of the first column and adsd it two each value of the tensor given
++ **Extra function function 1:** given a tensor, calculates the average of the first column and add it two each value of the tensor given
 
   - instance.extrafunction_1(tensor)
 + **Extra function function 2:** given a tensor, calculates its transpose and the sums of all the elements of the first column of the transpose, and then returns
