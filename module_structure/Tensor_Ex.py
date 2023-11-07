@@ -30,3 +30,4 @@ class TensorCalculator():
         t1_t = torch.transpose(t1, 1, 0)
         suma_columna = torch.sum(t1[:, 0])
         return torch.add(t1, suma_columna)
+
