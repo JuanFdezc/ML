@@ -1,15 +1,11 @@
 from setuptools import setup, find_packages
 from module_structure import __name__
-#__author__,__version__,
 
-
-#VERSION = __version__
-#AUTHOR = __author__
 NAME = __name__
 
 setup(
-    name                    = NAME,
-   # version                 = VERSION,
+    name                    =NAME,
+
     description             = 'Brief description of your package',
    # author                  = AUTHOR,
     author_email            = 'juanfercer@gmail.com',
