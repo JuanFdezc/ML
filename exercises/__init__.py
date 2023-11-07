@@ -1,4 +1,4 @@
-from module_structure.tensor_ex import *
+from exercises.tensor_ex import *
 
 __all__ = tensor_ex.__all__
 
@@ -11,4 +11,4 @@ COMMIT = 12
 
 __version__ = f'{MAJOR}.{MINOR}.{PATCH}.{COMMIT}'
 __author__  = 'Juan Fernandez'
-__name__    = 'module_structure'
+__name__    = 'exercises'

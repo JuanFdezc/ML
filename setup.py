@@ -1,5 +1,5 @@
 from setuptools import setup, find_packages
-from module_structure import __name__
+from exercises import __name__
 
 NAME = __name__
 
